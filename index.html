@@ -5,83 +5,241 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/b44e51c7b6.js" crossorigin="anonymous"></script>
 </head>
 <body>
-   <section>
+  <section id="about-me">
     <nav>
-        <img src="./assets/FES.svg" class="logo">
-        <ul>
-            <li><a href="#about"></a>about</li>
-            <li><a href="#discord"></a>discord</li>
-            <li><a href="#contact"></a>Contact</li>
+        <div class="personal--logo">Todd Carman</div>
+        <ul class="nav__link--list">
+            <li>
+                <a href="" class="
+                nav__link--anchor
+                link__hover-effect
+                link__hover-effect--black
+                ">Languages</a>
+            </li>
+            <li>
+                <a href="" class="
+                nav__link--anchor
+                link__hover-effect
+                link__hover-effect--black
+                ">Projects</a>
+            </li>
+            <li>
+                <a href="" class="
+                nav__link--anchor
+                link__link--anchor-primary
+                ">Contacts</a>
+            </li>
         </ul>
-    </section>
-        <HEADER>
-        <div>
-            <div class="row"></div>
-        <h1>Best place to learn FrontEnd</h1>
-        <p class="subheader">Go from absolute beginner to pro with a simplified process</p>
-        <button>Start Now</button>
-    </div>
-        <figure>
-            <img src="./assets/laptop.png" alt="laptop.jpg">
-        </figure>
-        </HEADER>
     </nav>
-</section>
-   <main>
-    <section id="about">
-        <h2>About</h2>
-    <div class="row">
-        <div class="section__descr">
-        <div class="section__descr--wrapper">
-            <p class="section__descr--para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem cupiditate quia ex sapiente provident labore rerum voluptate libero excepturi. Placeat deleniti ipsa illum consequatur? Animi praesentium doloremque velit incidunt ipsum.</p>
-            <p class="section__descr--para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione necessitatibus pariatur aut deleniti quaerat voluptas modi quibusdam numquam dolore at qui quis, quae ipsam aperiam quisquam animi. Sapiente, libero ut.</p>
-     
-        </div>
-        <figure class="about__img--wrapper">
-            <img src="./assets/about.jpg" alt="About.jpg">
-        </figure>
+    <div class="flex flex-1 row">
+        <div class="about-me__info">
+            <div class="about-me__info--container">
+                <figure class="about-me__picutre--mask">
+                    <img src="./assets/me.png" class="about-me__picture" alt="picture of me">
+                </figure>
+                <h1 class="about-me__info--title">
+                    Hey! I'm <span class="text--purple">Todd Carman</span>&nbsp;<span class="wave">👋</span>
+                </h1>
+                <p class="about-me__info--para">
+                    I'm a new <strong class="text--purple">frontend software engineer</strong> with a passion for building responsiive, astestically pleasing and high functional web application providing a great user experince that can positively impact profitablity
+                </p>
+                <div class="about-me__links">
+                    <a href="" class="about-me__link">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="" class="about-me__link">
+                        <i class="fa-brands  fa-facebook""></i>
+                    </a>
+                    <a href="" class="about-me__link">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="" class="about-me__link">
+                        <i class="fa-brands fa-git"></i>
+                    </a>
+                </div>
+            </div>
+            <figure class="about-me__img--container">
+                <img src="./Assets/undraw_websites.svg" class="about-me__img" alt="">
+            </figure>
         </div>
     </div>
-    </section>
-    <section id="discord">
-        <h2>Discord</h2>
-        <div class="row">
-        <div class="section__descr">
-    <figure>
-        <img src="./assets/discord.png" alt="Discord.jpg">
-    </figure class="about__img--wrapper">
-        <div>
-            <p class="section__descr--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi amet fuga aliquid quisquam reiciendis eligendi consequatur nesciunt quod maiores ut quis totam facere quibusdam, voluptatum officiis suscipit. Iste, voluptatem perspiciatis?</p>
-            <p class="section__descr--para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi tempora harum corrupti laudantium tenetur repellendus numquam repudiandae ipsam perspiciatis quam molestiae id, corporis saepe natus dolor minima consectetur earum explicabo.</p>
+  </section>
+  <section id="Languages">
+    <div class="container">
+        <h1 class="section__title">This is my <span class="text--purple">technology stack</span></h1>
+        <div class="language__list">
+            <div class="language">
+               <figure class="language__img--wrapper">
+                <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
+                alt="Html Logo" class="language__img" />
+            </figure>
+            <span class="language__name">HTML</span>
+          </div>
+          <div class="language">
+            <figure class="language__img--wrapper">
+              <img src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png" alt="CSS Logo"
+                class="language__img" />
+            </figure>
+            <span class="language__name">CSS</span>
+          </div>
+          <div class="language">
+            <figure class="language__img--wrapper">
+              <img src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png" alt="JavaScript Logo"
+                class="language__img" />
+            </figure>
+            <span class="language__name">JavaScript</span>
+          </div>
+          <div class="language">
+            <figure class="language__img--wrapper">
+              <img src="https://cdn.iconscout.com/icon/free/png-256/typescript-3521774-2945272.png"
+                alt="TypeScript Logo" class="language__img" />
+            </figure>
+            <span class="language__name">TypeScript</span>
+          </div>
+          <div class="language">
+            <figure class="language__img--wrapper">
+              <img src="https://cdn.iconscout.com/icon/free/png-256/vue-282497.png" alt="Vue Logo"
+                class="language__img" />
+            </figure>
+            <span class="language__name">Vue</span>
+          </div>
+          <div class="language">
+            <figure class="language__img--wrapper">
+              <img src="https://cdn.iconscout.com/icon/free/png-256/nuxt-dot-js-3628959-3030184.png" alt="Nuxt Logo"
+                class="language__img" />
+            </figure>
+            <span class="language__name">Nuxt</span>
+          </div>
+          <div class="language">
+            <figure class="language__img--wrapper">
+              <img src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png" alt="React Logo"
+                class="language__img" />
+            </figure>
+            <span class="language__name">React</span>
+          </div>
+          <div class="language">
+            <figure class="language__img--wrapper">
+              <img src="https://mobx.js.org/img/mobx.png" alt="MobX Logo" class="language__img" />
+               </figure>
+               <span class="language__name">MobX</span> 
             </div>
         </div>
     </div>
-    </section>
-    <section id="contact">
-    <div>
-        <h2>Contact</h2>
-        <form action="">
-           <span>Email</span>
-            <input type="email" placeholder="you@example.com">
-            <span>Message</span>
-            <textarea name="Text" id=""></textarea>
-            <button>Contact Us !!!</button>
-        </form>
+  </section>
+  <section id="projects">
+    <div class="container">
+        <div class="row">
+            <h1 class="section__title">Here are some of my <span class="text--purple">Projects</span></h1>
+            <ul class="project__list">
+                <li class="project">
+                    <div class="project__wrapper">
+                        <img src="./Assets/loopit.png" class="project__img">
+                        <div class="project__descr">
+                            <h3 class="project__descr--title">car sales project</h3>
+                            <h4 class="project__descr--sub-title">
+                                HTML, CSS, JavaScript, Vue, Vuex
+                            </h4>
+                            <p class="project__descr--para">
+                                Lorem ipsum jkhfsjkh klakhfk kljsalkfjlkasfh askljflkasj 'p;kf;asojslfkj ;'skdfl;asfjl ;'lkfs;lka;l dolor sit amet consectetur adipisici 
+                            </p>
+                            <div class="project__descr--links">
+                                <a href="https://www.github.com/yourlink" target="_blank" class="project__descr--link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://www.github.com" target="_blank" class="project__descr--link">
+                                    <i class="fas fa-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="project">
+                    <div class="project__wrapper">
+                        <img src="./Assets/RottenmouthViper290__40378.jpg" class="project__img">
+                        <div class="project__descr">
+                            <h3 class="project__descr--title">RottenmouthViper project</h3>
+                            <h4 class="project__descr--sub-title">
+                                HTML, CSS, JavaScript, Vue, Vuex
+                            </h4>
+                            <p class="project__descr--para">
+                                Lorem ipsum jkhfsjkh klakhfk kljsalkfjlkasfh askljflkasj 'p;kf;asojslfkj ;'skdfl;asfjl ;'lkfs;lka;l dolor sit amet consectetur adipisici 
+                            </p>
+                            <div class="project__descr--links">
+                                <a href="https://www.github.com/yourlink" target="_blank" class="project__descr--link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://www.google.com" target="_blank" class="project__descr--link">
+                                    <i class="fas fa-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="project">
+                    <div class="project__wrapper">
+                        <img src="./Assets/UnstoppableSlasher119__23537.jpg" class="project__img">
+                        <div class="project__descr">
+                            <h3 class="project__descr--title">UnstoppableSlasher project</h3>
+                            <h4 class="project__descr--sub-title">
+                                HTML, CSS, JavaScript, Vue, Vuex
+                            </h4>
+                            <p class="project__descr--para">
+                                Lorem ipsum jkhfsjkh klakhfk kljsalkfjlkasfh askljflkasj 'p;kf;asojslfkj ;'skdfl;asfjl ;'lkfs;lka;l dolor sit amet consectetur adipisici 
+                            </p>
+                            <div class="project__descr--links">
+                                <a href="https://www.github.com/yourlink" target="_blank" class="project__descr--link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://www.marketwatch.com" target="_blank" class="project__descr--link">
+                                    <i class="fas fa-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </div>
-  
-    </section>
-   </main>
-   <footer>
-        <img class="footer__logo" src="./assets/FES.svg" alt="FES.svg">
-    <div class="footer__links">
-        <a class="footer__link" href="#about">About</a>
-        <a class="footer__link" href="#discord">About</a>
-        <a class="footer__link" href="#contact">About</a>
-        <a class="footer__link" href=""">Courses</a>
-    </div>
-    <p>Copywrite Frontend Simplified</p>
-   </footer>
+  </section>
 </body>
+<footer>
+    <div class="row footer__row">
+    <a href="#" class="footer__anchor">
+        <figure class="footer__logo">
+            <img src="./Assets/logo.svg" class="footer__logo--img" alt="">
+        </figure>
+        <span class="footer__logo--popper">
+            Top
+            <i class="fas fa-arrow-up"></i>
+        </span>
+    </a>
+    <div class="footer__social--list">
+        <a href="https://google.com" target="_blank" class="
+        footer__social--link
+        link__hover-effect
+        link__hover-effect--white
+        " target="_blank">Github</a>
+        <a href="https://google.com" target="_blank" class="
+        footer__social--link
+        link__hover-effect
+        link__hover-effect--white
+        " target="_blank">LinkedIn</a>
+        <a href="mailtto:todd@carmalot.com" target="_blank" class="
+        footer__social--link
+        link__hover-effect
+        link__hover-effect--white
+        " target="_blank">Email</a>
+        <a href="./Assets/Example Resume.pdf" target="_blank" class="
+        footer__social--link
+        link__hover-effect
+        link__hover-effect--white
+        " target="_blank" >Resume</a>
+    </div>
+    <div class="footer__copyright">Copyright <i class="fa-regular fa-copyright"></i> 2025 Todd Carman</div>
+</div>
+</footer>
 </html>
